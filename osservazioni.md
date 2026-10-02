@@ -40,7 +40,7 @@ Che cosa posso concludere:
 
 ## Step 2 — Eco: seconda prova
 
-Argomenti passati, comando e risultato:
+Argomenti passati, comando e risultato: argomento
 
 Che cosa ho capito su testo, conversioni e stampa:
 
