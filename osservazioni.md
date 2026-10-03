@@ -13,14 +13,14 @@ saper spiegare le prove svolte.
 
 ## Step 1 — Hello World: compilazione ed esecuzione
 
-Comando di compilazione: gcc -std=c17 -Wall -Wextra -Wpedantic hello.c -o hello
+Comando di compilazione: gcc -std=c17 -Wall -Wextra -Wpedantic hello.c -o hello (oppure make)
 
 Comando di esecuzione e risultato osservato: ./hello e si è notato che ha stampato il contenuto scritto (Hello, computational physics!)
  
 
 Che cosa ho capito su sorgente ed eseguibile: che per poter applicare le modifiche della sorgente è necessaria la compilazione prima dell'esecuzione
 
-Output richiesto e comportamento del programma prima della modifica: 
+Output richiesto e comportamento del programma prima della modifica: prima della modifica non veniva stampato nulla, mentre la consegna chiedeva di stampare (Hello, computational physics!)
 
 Esito dopo la modifica e spiegazione della correzione: effettuando una modifica è necessario ricompilare l'eseguibile per poi usare il comando ./hello > output.txt
 
