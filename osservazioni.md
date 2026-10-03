@@ -30,7 +30,7 @@ Quali file ho incluso nel commit e perché: sono stati aggiunti file di estensio
 
 Come ho verificato che la versione provata sia presente su GitHub: è stato aperto github e notato se sono presenti i file inseriti nel commit
 
-Che cosa ho osservato prima e dopo `git pull`, e perché non serve un nuovo clone:
+Che cosa ho osservato prima e dopo `git pull`, e perché non serve un nuovo clone: git pull aggiorna una cartella gia presente, quindi non è richiesto un secondo clone
 
 ## Step 2 — Eco: prima prova
 
