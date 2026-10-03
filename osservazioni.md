@@ -26,9 +26,9 @@ Esito dopo la modifica e spiegazione della correzione: effettuando una modifica 
 
 ## Step 1 — Git
 
-Quali file ho incluso nel commit e perché:
+Quali file ho incluso nel commit e perché: sono stati aggiunti file di estensione .c o .txt, non eseguibili essendo molto pesanti
 
-Come ho verificato che la versione provata sia presente su GitHub:
+Come ho verificato che la versione provata sia presente su GitHub: è stato aperto github e notato se sono presenti i file inseriti nel commit
 
 Che cosa ho osservato prima e dopo `git pull`, e perché non serve un nuovo clone:
 
