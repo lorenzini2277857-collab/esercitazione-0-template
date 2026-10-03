@@ -34,23 +34,23 @@ Che cosa ho osservato prima e dopo `git pull`, e perché non serve un nuovo clon
 
 ## Step 2 — Eco: prima prova
 
-Argomenti passati, comando e risultato:
+Argomenti passati, comando e risultato: sono stati passati come argomenti della fuznione una char, un intero e un double che sono stati stampati
 
-Che cosa posso concludere:
+Che cosa posso concludere: che a differenza di scanf risulta più comodo inserire le variabili di input
 
 ## Step 2 — Eco: seconda prova
 
-Argomenti passati, comando e risultato: argomento
+Argomenti passati, comando e risultato: argomento sono stati passati input che rispettassero le ipotesi fatte durante la scrittura del codice e di fatto sono stati stampati sul file .txt
 
-Che cosa ho capito su testo, conversioni e stampa:
+Che cosa ho capito su testo, conversioni e stampa: che è possibile usare > per semplificare l'uscita dei dati creati da un eseguibile, e inserirli direttamente in un .tx, ed è possibile usare le variabili descritte per il seguente esercizio per poter effettuare una sola "esecuzione", si dice esecuzione in batch (termine trovato su google)
 
 ## Step 2 — Risultato ed errori
 
-Previsioni per l'esecuzione con argomenti validi e per quella con `dodici`:
+Previsioni per l'esecuzione con argomenti validi e per quella con `dodici`: ci si aspetta che il secondo restituisca un errore e il primo no
 
-Contenuto di `eco.txt`, messaggi nel terminale e codici di uscita osservati:
+Contenuto di `eco.txt`, messaggi nel terminale e codici di uscita osservati: nel primo caso e nel secondo utilizzando atoi non si sono riscontrati errori, ma nel secondo caso è stato salvato uno zero al posto del char
 
-Come un controllo automatico può riconoscere un errore:
+Come un controllo automatico può riconoscere un errore: un modo può essere usare la funzione strtol, che di fatto legge tutti gli elementi di un array modimensionale, e si ferma in prensenza di un carattere, salvando l'indirizzo di memoria dove questo è avvenuto, di fatto è possibile sfruttare questo per accorgersi dell'errore e sfruttare fprintf di stderr per stampare subito l'errore.
 
 ## Step 2 — Parametri e calcolo fisico
 

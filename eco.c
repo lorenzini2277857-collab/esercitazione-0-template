@@ -9,9 +9,17 @@ int main(int argc, char *argv[])
     }
 
     char *testo = argv[1];
-    int intero = atoi(argv[2]);
+    char *end;
+    long intero = strtol(argv[2], &end, 10);
+
+    if (end == argv[2] || *end != '\0')
+      {
+	fprintf(stderr, "Errore nel secondo argomento, non e' un intero\n");
+	return 1;
+      }
+    
     double reale = atof(argv[3]);
-    printf("%s %d %f\n",testo, intero, reale);
+    printf("%s %ld %f\n",testo, intero, reale);
 
     /* TODO: converti gli argomenti in tipi appropriati. Usa atoi o atof
     * prendi ispirazione da:
