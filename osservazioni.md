@@ -54,10 +54,10 @@ Come un controllo automatico può riconoscere un errore: un modo può essere usa
 
 ## Step 2 — Parametri e calcolo fisico
 
-Quando serve ricompilare e quando basta cambiare gli argomenti:
+Quando serve ricompilare e quando basta cambiare gli argomenti: serve ricompilare se cambio la struttura logica del file, basta cambiare argomento se voglio usare nuovamente la stessa identica struttura
 
 ## Step 2 — Git
 
-Come riconosco nella cronologia i commit dei due step:
+Come riconosco nella cronologia i commit dei due step: attraverso l'uso di git log --oneline
 
-Come ho verificato che la versione finale sia presente su GitHub:
+Come ho verificato che la versione finale sia presente su GitHub: dopo aver effettuato tutti i comandi della sezione descritta dalla traccia, è sufficiente andare su github.com e vedere se sono state caricate le modifiche 
