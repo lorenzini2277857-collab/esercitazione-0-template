@@ -34,7 +34,7 @@ Che cosa ho osservato prima e dopo `git pull`, e perché non serve un nuovo clon
 
 ## Step 2 — Eco: prima prova
 
-Argomenti passati, comando e risultato: sono stati passati come argomenti un intero, pari al numeri di argomenti più il nome del file eseguibile, e un array di testo, da cui poi sono stati (attraverso strtol, strtod...) in interi e double.
+Argomenti passati, comando e risultato: sono stati passati come argomenti un intero, pari al numeri di argomenti più il nome del file eseguibile, e un array di testo, da cui poi sono stati (attraverso atoi, atof) in interi e double.
 
 Che cosa posso concludere: che a differenza di scanf risulta più comodo inserire le variabili di input: è sufficiente inserire in un solo comando l'input piuttosto che avere n interazione con il terminale, e posso direttamente stampare l'output all'interno del file output.txt attraverso l'uso di >.
 
@@ -42,7 +42,7 @@ Che cosa posso concludere: che a differenza di scanf risulta più comodo inserir
 
 Argomenti passati, comando e risultato: argomento sono stati passati input che rispettassero le ipotesi fatte durante la scrittura del codice e di fatto sono stati stampati sul file.txt
 
-Che cosa ho capito su testo, conversioni e stampa: che è possibile usare > per semplificare l'uscita dei dati creati da un eseguibile, e inserirli direttamente in un .txt attraverso >, ed è possibile usare le variabili descritte per il seguente esercizio per poter effettuare una sola "esecuzione", 
+Che cosa ho capito su testo, conversioni e stampa: che è possibile usare > per semplificare l'uscita dei dati creati da un eseguibile, e inserirli direttamente in un .txt attraverso >, ed è possibile usare le variabili descritte per il seguente esercizio per poter effettuare una sola "esecuzione", inoltre atoi, atof di fatto se incontrano un carattere restituiscono 0,e questo lo si può usare per un eventuale controllo sull'inserimento di dati, mentre strtol salva l'indirizzo di memoria dove è risultato un carattere, consentendo di restituire errore senza dover mettere condizioni sullo zero.
 
 ## Step 2 — Risultato ed errori
 
@@ -57,7 +57,7 @@ Come un controllo automatico può riconoscere un errore: un modo può essere usa
 Quando serve ricompilare e quando basta cambiare gli argomenti: serve ricompilare se cambio la struttura logica del file, basta cambiare argomento se voglio usare nuovamente la stessa identica struttura
 
 ## Step 2 — Git
+ 
+Come riconosco nella cronologia i commit dei due step: attraverso l'uso di git log --oneline, che restituisce tutta la cronologia delle modifiche, tutte distinte dal proprio messaggio attraverso il commit.
 
-Come riconosco nella cronologia i commit dei due step: attraverso l'uso di git log --oneline
-
-Come ho verificato che la versione finale sia presente su GitHub: dopo aver effettuato tutti i comandi della sezione descritta dalla traccia, è sufficiente andare su github.com e vedere se sono state caricate le modifiche 
+Come ho verificato che la versione finale sia presente su GitHub: dopo aver effettuato tutti i comandi della sezione descritta dalla traccia, è sufficiente andare su github.com e vedere se sono state caricate le modifiche, e infine eseguento
