@@ -34,15 +34,15 @@ Che cosa ho osservato prima e dopo `git pull`, e perché non serve un nuovo clon
 
 ## Step 2 — Eco: prima prova
 
-Argomenti passati, comando e risultato: sono stati passati come argomenti della fuznione una char, un intero e un double che sono stati stampati
+Argomenti passati, comando e risultato: sono stati passati come argomenti un intero, pari al numeri di argomenti più il nome del file eseguibile, e un array di testo, da cui poi sono stati (attraverso strtol, strtod...) in interi e double.
 
-Che cosa posso concludere: che a differenza di scanf risulta più comodo inserire le variabili di input
+Che cosa posso concludere: che a differenza di scanf risulta più comodo inserire le variabili di input: è sufficiente inserire in un solo comando l'input piuttosto che avere n interazione con il terminale, e posso direttamente stampare l'output all'interno del file output.txt attraverso l'uso di >.
 
 ## Step 2 — Eco: seconda prova
 
-Argomenti passati, comando e risultato: argomento sono stati passati input che rispettassero le ipotesi fatte durante la scrittura del codice e di fatto sono stati stampati sul file .txt
+Argomenti passati, comando e risultato: argomento sono stati passati input che rispettassero le ipotesi fatte durante la scrittura del codice e di fatto sono stati stampati sul file.txt
 
-Che cosa ho capito su testo, conversioni e stampa: che è possibile usare > per semplificare l'uscita dei dati creati da un eseguibile, e inserirli direttamente in un .tx, ed è possibile usare le variabili descritte per il seguente esercizio per poter effettuare una sola "esecuzione", si dice esecuzione in batch (termine trovato su google)
+Che cosa ho capito su testo, conversioni e stampa: che è possibile usare > per semplificare l'uscita dei dati creati da un eseguibile, e inserirli direttamente in un .txt attraverso >, ed è possibile usare le variabili descritte per il seguente esercizio per poter effettuare una sola "esecuzione", 
 
 ## Step 2 — Risultato ed errori
 
