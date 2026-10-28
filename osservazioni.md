@@ -6,7 +6,7 @@ Componenti (nome, cognome e username GitHub di entrambi): Francesco Lorenzini lo
 
 URL del repository condiviso: https://github.com/lorenzini2277857-collab/esercitazione-0-template (entrambi i repository sono stati usati con risultati simili)
 
-Chi ha usato la tastiera nello step 1 e nello step 2: tutti e due
+Chi ha usato la tastiera nello step 1 e nello step 2: tutti e due hanno collaborato
 
 Compilate insieme le osservazioni e discutete le risposte: entrambi dovete
 saper spiegare le prove svolte.
@@ -22,15 +22,15 @@ Che cosa ho capito su sorgente ed eseguibile: che per poter applicare le modific
 
 Output richiesto e comportamento del programma prima della modifica: prima della modifica non veniva stampato nulla, mentre la consegna chiedeva di stampare (Hello, computational physics!)
 
-Esito dopo la modifica e spiegazione della correzione: effettuando una modifica è necessario ricompilare l'eseguibile per poi usare il comando ./hello > output.txt
+Esito dopo la modifica e spiegazione della correzione: effettuando una modifica è necessario ricompilare l'eseguibile per poi usare il comando ./hello > output.txt, per stampare l'output nel file .txt
 
 ## Step 1 — Git
 
-Quali file ho incluso nel commit e perché: sono stati aggiunti file di estensione .c o .txt, non eseguibili essendo molto pesanti
+Quali file ho incluso nel commit e perché: sono stati aggiunti file di estensione .c, .md, e sono stati ESCLUSI i .txt in quanto servono solo per salvare dei dati da poter riusare in altri codici in locale, e gli eseguibili essendo generabili da qualsiasi computer
 
-Come ho verificato che la versione provata sia presente su GitHub: è stato aperto github e notato se sono presenti i file inseriti nel commit
+Come ho verificato che la versione provata sia presente su GitHub: è stato aperto github e notato se sono presenti i file inseriti nel commit, inoltre ho verificato che il codice coincidesse con quello ottenuto eseguento git log -oneline
 
-Che cosa ho osservato prima e dopo `git pull`, e perché non serve un nuovo clone: git pull aggiorna una cartella gia presente, quindi non è richiesto un secondo clone
+Che cosa ho osservato prima e dopo `git pull`, e perché non serve un nuovo clone: il git pull serve a caricare in locale delle modifiche dopo aver eseguito un clone, che ha già creato la cartella una prima volta, e non è richiesto ricrearla; e dopo averlo eseguito si è notata la modifica
 
 ## Step 2 — Eco: prima prova
 
