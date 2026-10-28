@@ -60,4 +60,5 @@ Quando serve ricompilare e quando basta cambiare gli argomenti: serve ricompilar
  
 Come riconosco nella cronologia i commit dei due step: attraverso l'uso di git log --oneline, che restituisce tutta la cronologia delle modifiche, tutte distinte dal proprio messaggio attraverso il commit.
 
-Come ho verificato che la versione finale sia presente su GitHub: dopo aver effettuato tutti i comandi della sezione descritta dalla traccia, è sufficiente andare su github.com e vedere se sono state caricate le modifiche, e infine eseguento
+Come ho verificato che la versione finale sia presente su GitHub: dopo aver effettuato tutti i comandi della sezione descritta dalla traccia, è sufficiente andare su github.com e vedere se sono state caricate le modifiche, e infine eseguendo git tag submit/consegna-1
+git push origin submit/consegna-1, si è consegnata la prova.
